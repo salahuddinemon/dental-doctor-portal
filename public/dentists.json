@@ -1,0 +1,50 @@
+[
+    {
+        "id": 101,
+        "email": "mahfuz@mediteeth.com",
+        "name": "Dr. Mahfuzul Islam",
+        "img": "https://i.ibb.co/7J17vSq/1.png",
+        "expertise": "BDS,Consultant,Dental Surgeon and Implantologist",
+        "description": "Doctor Mahfuzul Islam completed BDS degree from Dhaka dental college in 2003. In 2004, he completed the interne training .In 2005, he completed one year higher training on the treatment of Dhaka Dental College's operative and Department (Root Canal). From 2006 to 2010, Dhaka dental college has completed research on the treatment of post-graduate training and wingless joints at the maxillofacial surgery department."
+    },
+    {
+        "id": 102,
+        "email": "masud@mediteeth.com",
+        "name": "Dr. Masudur Rahman iqbal",
+        "img": "https://i.ibb.co/275Lvj9/2.png",
+        "expertise": "BDS,BCS-Health,MS(Oral And Maxillofacial Surgery)",
+        "description": "Dr. Md Masudur Rahman Iqbal is an eminent Maxillofacial Surgeon. He is working in different branches of Maxillofacial Surgery like facial trauma, oral cancer, tumour,TMJ disorders, developmental defects of face/jaw and Reconstructive Surgery. He has completed graduation from Dhaka dental college in 1993 and joined in govt. service as an assistant dental surgeon in 1997.He obtained master’s degree(MS) in oral and Maxillofacial Surgery from Dhaka university in 2009."
+    },
+    {
+        "id": 103,
+        "email": "meh@mediteeth.com",
+        "name": "Dr. Mehjabin Morshed Mumu",
+        "img": "https://i.ibb.co/yNBM9nS/3.png",
+        "expertise": "BDS (Dhaka Community Medical College and Hospital)",
+        "description": "Dr. Mehjabin Morshed completed BDS degree from Dhaka dental college in 2008. In 2009, he completed the interne training .In 2005, he completed one year higher training on the treatment of Dhaka Dental College's operative and Department (Root Canal)."
+    },
+    {
+        "id": 104,
+        "email": "israt@mediteeth.com",
+        "name": "Assistant Professor-Dr. Israt Mafruha",
+        "img": "https://i.ibb.co/yNBM9nS/3.png",
+        "expertise": "BDS (RMC) PGT (BSMMU) MS (Orthodontic)",
+        "description": "Dr. Israt Mafruha completed BDS degree from Dhaka dental college in 2003. In 2004, he completed the interne training .In 2005, he completed one year higher training on the treatment of Dhaka Dental College's operative and Department (Root Canal). From 2006 to 2010, Dhaka dental college has completed research on the treatment of post-graduate training and wingless joints at the maxillofacial surgery department."
+    },
+    {
+        "id": 105,
+        "email": "awal@mediteeth.com",
+        "name": "Dr. Md Abdul Awal",
+        "img": "https://i.ibb.co/fCY10Ns/4.png",
+        "expertise": "BDS,BCS-Health,MS(Prosthodontics)",
+        "description": "Dr. Md Abdul Awal completed BDS degree from Dhaka dental college in 2003. In 2004, he completed the interne training .In 2005, he completed one year higher training on the treatment of Dhaka Dental College's operative and Department (Root Canal). From 2006 to 2010, Dhaka dental college has completed research on the treatment of post-graduate training and wingless joints at the maxillofacial surgery department."
+    },
+    {
+        "id": 106,
+        "email": "tanvir@mediteeth.com",
+        "name": "Dr. Md. Tanvir Al Asban",
+        "img": "https://i.ibb.co/K9V4G3T/5.png",
+        "expertise": "BDS,BCS,MS(Prosthodontics) ,Assistant Professor",
+        "description": "Dr. Md. Tanvir Al Asban completed BDS degree from Dhaka dental college in 2003. In 2004, he completed the interne training .In 2005, he completed one year higher training on the treatment of Dhaka Dental College's operative and Department (Root Canal). From 2006 to 2010, Dhaka dental college has completed research on the treatment of post-graduate training and wingless joints at the maxillofacial surgery department."
+    }
+]

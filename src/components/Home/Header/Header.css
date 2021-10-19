@@ -1,0 +1,13 @@
+.nav-container {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight:500;
+}
+.head-text {
+    position: relative;
+ }
+.text-on-banner{
+    position: absolute;
+  left: 5%;
+  bottom: 30%;
+}
