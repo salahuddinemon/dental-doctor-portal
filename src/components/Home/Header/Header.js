@@ -4,10 +4,10 @@ import logo from '../../../images/logo.png'
 import banner from '../../../images/banner.jpg'
 import './Header.css'
 import { NavLink } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut } = useAuth();
     return (
         <div>
             <>
@@ -30,11 +30,10 @@ const Header = () => {
                             <NavLink className="fs-5 nav-container" to="/dentists">Dentists</NavLink>
                             <NavLink className="fs-5 nav-container" to="/about">About us</NavLink>
                             <NavLink className="fs-5 nav-container" to="/contact">Contact</NavLink>
+                            {user.email && <span className="text-success mt-1 fw-bold">Hi, {user.displayName}</span>}
                             {
                                 user.email ?
-                                    <Button onClick={logOut} variant="warning px-5" type="submit">
-                                        Sign-Out
-                                    </Button>
+                                    <button onClick={logOut}>Sign-Out</button>
                                     :
                                     <NavLink className="fs-5 nav-container" to="/sign-in">Sign-In</NavLink>}
                         </Nav>

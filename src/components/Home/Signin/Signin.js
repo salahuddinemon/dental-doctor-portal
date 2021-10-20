@@ -1,15 +1,29 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 import './Signin.css'
 
 const Signin = () => {
-    const { user, signInUsingGoogle } = useFirebase();
+    const { signInUsingGooogle } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || './';
+
+    const handGoogleSignIn = () => {
+        signInUsingGooogle()
+            .then(result => {
+                history.push(redirect_uri);
+            })
+            .catch(error => {
+                console.log(error);
+            })
+    }
+
     return (
         <div className="signin-form">
             <h2>Sign-In</h2>
-            <Form onSubmit="">
+            <Form>
                 <Form.Group className="mb-2" controlId="formBasicEmail">
                     <Form.Label className="ms-auto">Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
@@ -29,10 +43,9 @@ const Signin = () => {
             <div>
                 <hr /> <Button
                     variant="warning px-5" type="submit"
-                    onClick={signInUsingGoogle}
+                    onClick={handGoogleSignIn}
                 >Google Sign-In
                 </Button> <hr />
-
             </div>
         </div >
     );

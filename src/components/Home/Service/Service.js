@@ -1,8 +1,9 @@
 import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import './Service.css';
 
 const Service = ({ service }) => {
-    const { name, img } = service;
+    const { id, name, img } = service;
     return (
         <div className="service-container">
             <Col>
@@ -12,7 +13,7 @@ const Service = ({ service }) => {
                         <Card.Title className="fw-bold">{name}</Card.Title>
                         <div className="d-grid gap-2">
                             <Button className="btn-style fw-bold" variant="dark" size="sm">
-                                See Details
+                                <Link to={`/servicedetails/${id}`}>See Details</Link>
                             </Button>
                         </div>
                     </Card.Body>

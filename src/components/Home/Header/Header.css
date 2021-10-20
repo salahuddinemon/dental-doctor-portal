@@ -7,7 +7,11 @@
     position: relative;
  }
 .text-on-banner{
-    position: absolute;
+  position: absolute;
   left: 5%;
   bottom: 30%;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
 }

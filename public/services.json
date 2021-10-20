@@ -1,98 +1,98 @@
 [
-    {
-        "id": 1,
-        "name": "Dental Implants",
-        "description": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth. Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone",
-        "img": "https://i.ibb.co/hmYWhGN/1.jpg",
-        "price": 1500,
-        "facilities": "Improve the oral and teeth health"
-    },
-    {
-        "id": 2,
-        "name": "Root Canal Treatment",
-        "description": "Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth. Root canal treatment is not painful and can save a tooth that might otherwise have to be removed completely.",
-        "img": "https://i.ibb.co/RHDgQpW/2.jpg",
-        "price": 1000,
-        "facilities": "Improved appearance & speech"
-    },
-    {
-        "id": 3,
-        "name": "Orthodontics Treatment",
-        "description": "Orthodontic treatment is a way of straightening or moving teeth, to improve the appearance of the teeth and how they work. It can also help to look after the long-term health of your teeth, gums and jaw joints, by spreading the biting pressure over all your teeth.",
-        "img": "https://i.ibb.co/SyTKgXP/3.jpg",
-        "price": 1700,
-        "facilities": "Ensure a happy smile of clients"
-    },
-    {
-        "id": 4,
-        "name": "Dental Crown & Bridge",
-        "description": "Both dental bridges and dental crowns make use of prosthetic devices to bring back your lost smile. According to the dentists, a crown is used when a tooth is damaged or fractured, while a bridge is used when one or more than one tooth is missing.",
-        "img": "https://i.ibb.co/0cpbF1L/4.jpg",
-        "price": 1600,
-        "facilities": "Improved comfort & easier eating"
-    },
-    {
-        "id": 5,
-        "name": "Gum Treatment",
-        "description": "In some cases of gum disease, root planing (debridement) may be required. This is a deep clean under the gums that gets rid of bacteria from the roots of your teeth. Before having the treatment, you may need to have a local anaesthetic (painkilling medication) to numb the area.",
-        "img": "https://i.ibb.co/yPqHRxw/5.jpg",
-        "price": 2500,
-        "facilities": "Provide quality services to every client"
-    },
-    {
-        "id": 6,
-        "name": "Children Dentistry",
-        "description": "The first dental visit is recommended by 12 months of age, or within 6 months of the first tooth coming in. The first visit often lasts 30 to 45 minutes. Depending on your child's age, the visit may include a full exam of the teeth, jaws, bite, gums, and oral tissues to check growth and development.",
-        "img": "https://i.ibb.co/9vpZkwv/6.jpg",
-        "price": 2200,
-        "facilities": "Higher durability & convenience"
-    },
-    {
-        "id": 7,
-        "name": "Geriatric Dentistry",
-        "description": "Geriatric dentistry is the delivery of oral care to older patients, many of whom require diagnosis, management, prevention and treatment of dental problems associated with age-related diseases.",
-        "img": "https://i.ibb.co/T0GX5zR/7.jpg",
-        "price": 1800,
-        "facilities": "Improved appearance & speech"
-    },
-    {
-        "id": 8,
-        "name": "Cosmetic Dentistry",
-        "description": "Cosmetic dentistry is a method of professional oral care that focuses on improving the appearance of your teeth. And although cosmetic dentistry procedures are usually elective rather than essential, some treatment cases also provide restorative benefits.",
-        "img": "https://i.ibb.co/Mk3zPfk/8.jpg",
-        "price": 1500,
-        "facilities": "Improved comfort & easier eating"
-    },
-    {
-        "id": 9,
-        "name": "Digital Smile Design",
-        "description": "Digital Smile Design (DSD) is a treatment planning protocol that allows for careful analysis of the patient's facial and dental structures through state-of-the-art videography and digital technology. Today, the DSD Concept is considered the most modern, patient-centered design approach available.",
-        "img": "https://i.ibb.co/fqyWRf0/9.jpg",
-        "price": 2500,
-        "facilities": "Ensure a happy smile of clients"
-    },
-    {
-        "id": 10,
-        "name": "Wisdom Tooth Surgery",
-        "description": "To remove the wisdom tooth, your dentist will open up the gum tissue over the tooth and take out any bone that is covering the tooth. He or she will separate the tissue connecting the tooth to the bone and then remove the tooth. Sometimes the dentist will cut the tooth into smaller pieces to make it easier to remove.",
-        "img": "https://i.ibb.co/Lkc32hm/10.jpg",
-        "price": 1000,
-        "facilities": "Provide quality services to every client"
-    },
-    {
-        "id": 11,
-        "name": "Temporomandibular Joint Pain",
-        "description": "Temporomandibular Joint (TMJ) disorders are conditions affecting the jaw joints and surrounding muscles and ligaments. It can be caused by trauma, an improper bite, arthritis or wear and tear. Common symptoms include jaw tenderness, headaches, earaches and facial pain.",
-        "img": "https://i.ibb.co/6thypMn/11.jpg",
-        "price": 1900,
-        "facilities": "Improve the oral and teeth health"
-    },
-    {
-        "id": 12,
-        "name": "Veneer",
-        "description": "In dentistry, a veneer is a layer of material placed over a tooth. Veneers can improve the aesthetics of a smile and protect the tooth's surface from damage. There are two main types of material used to fabricate a veneer: composite and dental porcelain.",
-        "img": "https://i.ibb.co/RjGxxGr/12.jpg",
-        "price": 1200,
-        "facilities": "Higher durability & convenience"
-    }
+  {
+    "id": "1",
+    "name": "Dental Implants",
+    "description": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth. Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone",
+    "img": "https://i.ibb.co/hmYWhGN/1.jpg",
+    "price": 1500,
+    "facilities": "Improve the oral and teeth health"
+  },
+  {
+    "id": "2",
+    "name": "Root Canal Treatment",
+    "description": "Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth. Root canal treatment is not painful and can save a tooth that might otherwise have to be removed completely.",
+    "img": "https://i.ibb.co/RHDgQpW/2.jpg",
+    "price": 1000,
+    "facilities": "Improved appearance & speech"
+  },
+  {
+    "id": "3",
+    "name": "Orthodontics Treatment",
+    "description": "Orthodontic treatment is a way of straightening or moving teeth, to improve the appearance of the teeth and how they work. It can also help to look after the long-term health of your teeth, gums and jaw joints, by spreading the biting pressure over all your teeth.",
+    "img": "https://i.ibb.co/SyTKgXP/3.jpg",
+    "price": 1700,
+    "facilities": "Ensure a happy smile of clients"
+  },
+  {
+    "id": "4",
+    "name": "Dental Crown & Bridge",
+    "description": "Both dental bridges and dental crowns make use of prosthetic devices to bring back your lost smile. According to the dentists, a crown is used when a tooth is damaged or fractured, while a bridge is used when one or more than one tooth is missing.",
+    "img": "https://i.ibb.co/0cpbF1L/4.jpg",
+    "price": 1600,
+    "facilities": "Improved comfort & easier eating"
+  },
+  {
+    "id": "5",
+    "name": "Gum Treatment",
+    "description": "In some cases of gum disease, root planing (debridement) may be required. This is a deep clean under the gums that gets rid of bacteria from the roots of your teeth. Before having the treatment, you may need to have a local anaesthetic (painkilling medication) to numb the area.",
+    "img": "https://i.ibb.co/yPqHRxw/5.jpg",
+    "price": 2500,
+    "facilities": "Provide quality services to every client"
+  },
+  {
+    "id": "6",
+    "name": "Children Dentistry",
+    "description": "The first dental visit is recommended by 12 months of age, or within 6 months of the first tooth coming in. The first visit often lasts 30 to 45 minutes. Depending on your child's age, the visit may include a full exam of the teeth, jaws, bite, gums, and oral tissues to check growth and development.",
+    "img": "https://i.ibb.co/9vpZkwv/6.jpg",
+    "price": 2200,
+    "facilities": "Higher durability & convenience"
+  },
+  {
+    "id": "7",
+    "name": "Geriatric Dentistry",
+    "description": "Geriatric dentistry is the delivery of oral care to older patients, many of whom require diagnosis, management, prevention and treatment of dental problems associated with age-related diseases.",
+    "img": "https://i.ibb.co/T0GX5zR/7.jpg",
+    "price": 1800,
+    "facilities": "Improved appearance & speech"
+  },
+  {
+    "id": "8",
+    "name": "Cosmetic Dentistry",
+    "description": "Cosmetic dentistry is a method of professional oral care that focuses on improving the appearance of your teeth. And although cosmetic dentistry procedures are usually elective rather than essential, some treatment cases also provide restorative benefits.",
+    "img": "https://i.ibb.co/Mk3zPfk/8.jpg",
+    "price": 1500,
+    "facilities": "Improved comfort & easier eating"
+  },
+  {
+    "id": "9",
+    "name": "Digital Smile Design",
+    "description": "Digital Smile Design (DSD) is a treatment planning protocol that allows for careful analysis of the patient's facial and dental structures through state-of-the-art videography and digital technology. Today, the DSD Concept is considered the most modern, patient-centered design approach available.",
+    "img": "https://i.ibb.co/fqyWRf0/9.jpg",
+    "price": 2500,
+    "facilities": "Ensure a happy smile of clients"
+  },
+  {
+    "id": "10",
+    "name": "Wisdom Tooth Surgery",
+    "description": "To remove the wisdom tooth, your dentist will open up the gum tissue over the tooth and take out any bone that is covering the tooth. He or she will separate the tissue connecting the tooth to the bone and then remove the tooth. Sometimes the dentist will cut the tooth into smaller pieces to make it easier to remove.",
+    "img": "https://i.ibb.co/Lkc32hm/10.jpg",
+    "price": 1000,
+    "facilities": "Provide quality services to every client"
+  },
+  {
+    "id": "11",
+    "name": "Temporomandibular Joint Pain",
+    "description": "Temporomandibular Joint (TMJ) disorders are conditions affecting the jaw joints and surrounding muscles and ligaments. It can be caused by trauma, an improper bite, arthritis or wear and tear. Common symptoms include jaw tenderness, headaches, earaches and facial pain.",
+    "img": "https://i.ibb.co/6thypMn/11.jpg",
+    "price": 1900,
+    "facilities": "Improve the oral and teeth health"
+  },
+  {
+    "id": "12",
+    "name": "Veneer",
+    "description": "In dentistry, a veneer is a layer of material placed over a tooth. Veneers can improve the aesthetics of a smile and protect the tooth's surface from damage. There are two main types of material used to fabricate a veneer: composite and dental porcelain.",
+    "img": "https://i.ibb.co/RjGxxGr/12.jpg",
+    "price": 1200,
+    "facilities": "Higher durability & convenience"
+  }
 ]

@@ -15,43 +15,51 @@ import Footer from './components/Home/Footer/Footer';
 import Notfound from './components/Home/Notfound/Notfound';
 import Signin from './components/Home/Signin/Signin';
 import Register from './components/Home/Register/Register';
+import AuthProvider from './context/AuthProvider';
+import ServiceDetails from './components/Home/ServiceDetails/ServiceDetails';
+import PrivateRoute from './components/Home/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/services">
-            <Services></Services>
-          </Route>
-          <Route path="/dentists">
-            <Dentists></Dentists>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route path="/contact">
-            <Contact></Contact>
-          </Route>
-          <Route path="/sign-in">
-            <Signin></Signin>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
-          </Route>
-          <Route path="*">
-            <Notfound></Notfound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+            <Route path="/dentists">
+              <Dentists></Dentists>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
+            <Route path="/sign-in">
+              <Signin></Signin>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+            <PrivateRoute path="/servicedetails/:serviceId">
+              <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
+            <Route path="*">
+              <Notfound></Notfound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

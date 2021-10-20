@@ -7,7 +7,7 @@ import Dentist from '../Dentist/Dentist';
 const Dentists = () => {
     const [dentists, setDentists] = useState([]);
     useEffect(() => {
-        fetch('dentists.json')
+        fetch('./dentists.json')
             .then(res => res.json())
             .then(data => setDentists(data))
     }, [])
@@ -26,4 +26,4 @@ const Dentists = () => {
     );
 };
 
-export default Dentists; <h1>This is Dentists</h1>
+export default Dentists;
