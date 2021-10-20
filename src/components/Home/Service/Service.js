@@ -13,7 +13,7 @@ const Service = ({ service }) => {
                         <Card.Title className="fw-bold">{name}</Card.Title>
                         <div className="d-grid gap-2">
                             <Button className="btn-style fw-bold" variant="dark" size="sm">
-                                <Link to={`/servicedetails/${id}`}>See Details</Link>
+                                <Link className="text-decoration-none text-white" to={`/servicedetails/${id}`}>See Details</Link>
                             </Button>
                         </div>
                     </Card.Body>

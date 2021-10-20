@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './ServiceDetails.css'
 
 const ServiceDetails = () => {
@@ -29,7 +29,7 @@ const ServiceDetails = () => {
                     <ListGroupItem className="fw-bold">Facilities: {exactService[0]?.facilities}</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                    <Card.Link href="/services"><Button variant="success">Go All Services</Button>{' '}</Card.Link>
+                    <Card.Link as={Link} to="/home#services"><Button variant="success">Go All Services</Button>{' '}</Card.Link>
                 </Card.Body>
             </Card>
         </div>

@@ -3,7 +3,7 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../../images/logo.png'
 import banner from '../../../images/banner.jpg'
 import './Header.css'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
@@ -11,9 +11,9 @@ const Header = () => {
     return (
         <div>
             <>
-                <Navbar bg="light" variant="light">
+                <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
                     <Container>
-                        <Navbar.Brand className="d-flex" href="#home">
+                        <Navbar.Brand className="d-flex" as={Link} to="/home#home">
                             <img
                                 src={logo}
                                 width="40"
@@ -42,7 +42,7 @@ const Header = () => {
                 <div className="head-text">
                     <div className="text-on-banner">
                         <h1 className="my-3 fw-bold">Professional <br /> Dental<span className="text-success">Clinic</span></h1>
-                        <h5 className="my-3">Qualified dental caring for all your dental needs</h5>
+                        {/* <h5 className="my-3">Qualified dental caring for all your dental needs</h5> */}
                         <Button className="my-3 fw-bold" variant="success"   >Request An Appointment</Button>{' '}
                     </div>
                     <img width="100%" src={banner} alt="" />
