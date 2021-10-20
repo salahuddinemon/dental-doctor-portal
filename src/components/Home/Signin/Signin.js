@@ -1,14 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import './Signin.css'
 
 const Signin = () => {
-    const { signInUsingGooogle } = useAuth();
+    const { signInUsingGooogle, handleEmailLogin } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || './';
+    const redirect_uri = location.state?.from || './home';
+
+    const [email, setEmail] = useState({});
+    const [password, setPassword] = useState({});
+    const [error, setError] = useState('');
+
+    const handleEmail = e => {
+        setEmail(e.target.value);
+
+    }
+
+    const handlePassword = e => {
+        setPassword(e.target.value);
+    }
+
+    const handleLogin = () => {
+        handleEmailLogin(email, password)
+            .then((result) => {
+                result.user &&
+                    history.push(redirect_uri);
+            })
+            .catch((error) => {
+                setError(error.message);
+            })
+    }
+
+
 
     const handGoogleSignIn = () => {
         signInUsingGooogle()
@@ -26,16 +52,16 @@ const Signin = () => {
             <Form>
                 <Form.Group className="mb-2" controlId="formBasicEmail">
                     <Form.Label className="ms-auto">Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                    <Form.Control onBlur={handlePassword} type="password" placeholder="Password" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
-                <Button variant="warning px-5" type="submit">
+                <Button onClick={handleLogin} variant="warning px-5" type="submit">
                     Sign-In
                 </Button>
             </Form>
@@ -46,6 +72,9 @@ const Signin = () => {
                     onClick={handGoogleSignIn}
                 >Google Sign-In
                 </Button> <hr />
+                <div className="text-danger">
+                    <p>{error}</p>
+                </div>
             </div>
         </div >
     );
